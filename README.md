@@ -3,6 +3,7 @@
 ## Project setup
 ```
 yarn install
+npx sb@next init --type vue
 ```
 
 ### Compiles and hot-reloads for development
