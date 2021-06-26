@@ -1,3 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BaseBtn slotがDOMに反映されているか 1`] = `"<button type=\\"button\\" class=\\"base-btn--extend\\">ダミーボタンテキスト</button>"`;
+exports[`BaseBtn buttonサイズ:sm 1`] = `"<div><button type=\\"button\\" class=\\"base-btn--extend base-btn--undefined base-btn--fill\\">ダミーボタンテキスト</button></div>"`;
+
+exports[`BaseBtn sbuttonサイズ:lg 1`] = `"<div><button type=\\"button\\" class=\\"base-btn--extend base-btn--undefined base-btn--fill\\">ダミーボタンテキスト</button></div>"`;
+
+exports[`BaseBtn slotがDOMに反映されているか 1`] = `"<button type=\\"button\\" class=\\"base-btn--extend base-btn--md base-btn--fill\\">ダミーボタンテキスト</button>"`;

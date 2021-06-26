@@ -21,7 +21,7 @@ export default {
     hLv: {
       type: String,
       required: true,
-      validator: function (value) {
+      validator: value => {
         return [1, 2, 3, 4, 5, 6].indexOf(Number(value)) !== -1;
       }
     }
